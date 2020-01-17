@@ -13,11 +13,14 @@ namespace Xamarin_tp
 {
     public partial class MainPage : ContentPage
     {
+
+        
         private readonly HttpClient _client = new HttpClient();
         private const string Url = "https://hmin309-embedded-systems.herokuapp.com/message-exchange/messages/";
         private ObservableCollection<Account> account;
         public MainPage()
         {
+            Title = "List view of all the messages";
             InitializeComponent();
         }
         async override protected void OnAppearing()
