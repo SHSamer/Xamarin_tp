@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Xamarin_tp">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
-  <application android:label="Xamarin_tp.Android"></application>
-  <meta-data android:name="com.google.android.geo.AIzaSyBklrU9zklu4B1JQ4upXnkQ8sTNWOtKxsg" android:value="AIzaSyBklrU9zklu4B1JQ4upXnkQ8sTNWOtKxsg"/>
+  <application android:label="Xamarin_tp.Android">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBklrU9zklu4B1JQ4upXnkQ8sTNWOtKxsg"/>
+  </application>
+  <!-- <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBklrU9zklu4B1JQ4upXnkQ8sTNWOtKxsg"/>
+  -->
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <application android:label="MultipleMarker">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBklrU9zklu4B1JQ4upXnkQ8sTNWOtKxsg" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  </application>
 </manifest>

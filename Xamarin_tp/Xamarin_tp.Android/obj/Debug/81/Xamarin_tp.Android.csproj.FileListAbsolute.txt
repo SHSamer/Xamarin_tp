@@ -161,6 +161,15 @@ C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\bin\Deb
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll.stamp
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Base.dll.stamp
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Maps.dll.stamp
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\XbdMerge\proguard\dc663e480.txt
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\XbdMerge\dc663e48.proguard.stamp
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\XbdMerge\0757626b.proguard.stamp
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\XbdMerge\2f4d086a.proguard.stamp
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\XbdMerge\ea5c07c4.proguard.stamp
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\linksrc\Xamarin_tp.Android.pdb
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\linksrc\Mono.Android.pdb
@@ -207,4 +216,3 @@ C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Deb
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\android\assets\Xamarin_tp.Android.pdb
-C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\linksrc\Xamarin_tp.dll.mdb

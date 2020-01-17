@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Xamarin_tp">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
-  <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:label="Xamarin_tp.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBklrU9zklu4B1JQ4upXnkQ8sTNWOtKxsg" />
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Xamarin_tp" android:theme="@style/MainTheme" android:name="md57938fe106682073b64a0b291d944a2d4.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:name="md51558244f76c53b6aeda52c8a337f2c37.PowerSaveModeBroadcastReceiver" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.Xamarin_tp.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
@@ -20,5 +23,14 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.Xamarin_tp" />
       </intent-filter>
     </receiver>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
+  <!-- <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBklrU9zklu4B1JQ4upXnkQ8sTNWOtKxsg"/>
+  -->
+  <application android:label="MultipleMarker">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBklrU9zklu4B1JQ4upXnkQ8sTNWOtKxsg" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  </application>
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
 </manifest>
