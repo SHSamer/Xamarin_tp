@@ -14,7 +14,12 @@
     <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\19\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\20\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\21\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\28\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\3\jl\arch-core-common.jar</Jar>
+    <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\31\jl\classes.jar</Jar>
+    <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\32\jl\classes.jar</Jar>
+    <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\33\jl\classes.jar</Jar>
+    <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\34\jl\classes.jar</Jar>
     <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\4\jl\arch-lifecycle-common.jar</Jar>
     <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\5\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\6\jl\bin\classes.jar</Jar>
@@ -32,6 +37,9 @@
     <ResolvedResourceDirectory>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\17\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\18\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\20\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\31\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\32\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\33\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\81\lp\15\jl\assets</ResolvedAssetDirectory>
@@ -47,5 +55,8 @@
     <ResolvedResourceDirectoryStamp>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\17.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\18.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\20.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\31.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\32.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp.Android\obj\Debug\81\lp\33.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

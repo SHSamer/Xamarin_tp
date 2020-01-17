@@ -22,6 +22,7 @@ namespace Xamarin_tp.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            Xamarin.FormsMaps.Init();
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
