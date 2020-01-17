@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xamarin_tp"
+             x:Class="Xamarin_tp.MainPage">
+
+
+    <StackLayout>
+        <ListView
+            x:Name="ItemlistView"
+
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+
+                            <Label Text="{Binding id}"
+                                   LineBreakMode="NoWrap"  FontSize="Medium"   TextColor="Orange"/>
+                            <Label Text="{Binding student_id}"
+                                   LineBreakMode="NoWrap"  FontSize="Medium"  TextColor="Orange"/>
+                            <Label Text="{Binding gps_lat}"
+                                   LineBreakMode="NoWrap"  FontSize="Medium" TextColor="Orange"/>
+                            <Label Text="{Binding gps_long}"
+                                   LineBreakMode="NoWrap"  FontSize="Medium" TextColor="Orange"/>
+                            <Label Text="{Binding student_message}" 
+                                   LineBreakMode="NoWrap"  FontSize="Medium" TextColor="Orange"/>
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Carte view" HorizontalOptions="Center" VerticalOptions="Center"
+                                    Clicked="Button_clicked">
+
+        </Button>
+    </StackLayout>
+
+</ContentPage>
