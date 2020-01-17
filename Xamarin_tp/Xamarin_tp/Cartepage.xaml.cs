@@ -1,12 +1,16 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
+using Xamarin_tp.Models;
 
 namespace Xamarin_tp
 {
@@ -15,13 +19,15 @@ namespace Xamarin_tp
     {
             public Cartepage()
             {
+          
+
                 Title = "Map view of all the messages";
 
-                Position position = new Position(36.9628066, -122.0194722);
+                Position position = new Position(43.610768333333333, 3.876715);
                 MapSpan mapSpan = new MapSpan(position, 0.01, 0.01);
 
                 Map map = new Map(mapSpan);
-
+                
                 Pin pin = new Pin
                 {
                     Label = "Santa Cruz",
@@ -36,10 +42,11 @@ namespace Xamarin_tp
              {
                  Margin = new Thickness(10),
                  Children =
-             {
+                 {
                  map
-             }
+                 }
              };
-        }
+            }
+       
     }
 }
