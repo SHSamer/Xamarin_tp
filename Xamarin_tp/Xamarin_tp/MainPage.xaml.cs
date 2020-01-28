@@ -22,6 +22,7 @@ namespace Xamarin_tp
         {
             Title = "List view of all the messages";
             InitializeComponent();
+            
 
         }
 
@@ -33,11 +34,13 @@ namespace Xamarin_tp
             account = new ObservableCollection<Account>(mylist);
             ItemlistView.ItemsSource = account;
             base.OnAppearing();
-            Device.StartTimer(TimeSpan.FromSeconds(30.01), () =>
+            if (Application.Current.MainPage.Navigation.NavigationStack.Count > 0) { 
+                Device.StartTimer(TimeSpan.FromSeconds(59.01), () =>
             {
                 Navigation.PushAsync(new MainPage());
                 return true;
             });
+            }
         }
         private async void Button_clicked(object sender, EventArgs e)
         {
@@ -49,7 +52,13 @@ namespace Xamarin_tp
          
 
         }
-        
+        private async void Button_clicked_Home(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page1());
+
+
+        }
+
 
 
     }

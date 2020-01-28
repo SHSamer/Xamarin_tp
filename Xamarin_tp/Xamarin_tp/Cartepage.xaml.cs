@@ -47,6 +47,23 @@ namespace Xamarin_tp
                  }
              };
             }
-       
+        protected override void OnAppearing()
+        {
+            Position position = new Position(43.610768333333333, 3.876715);
+            MapSpan mapSpan = new MapSpan(position, 0.01, 0.01);
+
+            Map map = new Map(mapSpan);
+            base.OnAppearing();
+            var pin = new Pin
+            {
+                Position = new Position(36.891, 10.181),
+                Label = "Position 1",
+                Address = "Address 1",
+            };
+
+            map.Pins.Add(pin);
+
+        }
+
     }
 }

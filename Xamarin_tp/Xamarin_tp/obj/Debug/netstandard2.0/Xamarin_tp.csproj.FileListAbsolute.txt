@@ -23,3 +23,4 @@ C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp\obj\Debug\netst
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp\obj\Debug\netstandard2.0\Xamarin_tp.pdb
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp\obj\Debug\netstandard2.0\Cartepage.xaml.g.cs
 C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Samer\Documents\GitHub\Xamarin_tp\Xamarin_tp\Xamarin_tp\obj\Debug\netstandard2.0\Page1.xaml.g.cs

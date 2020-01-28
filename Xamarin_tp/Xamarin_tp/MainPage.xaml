@@ -2,10 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Xamarin_tp"
-             x:Class="Xamarin_tp.MainPage">
+             x:Class="Xamarin_tp.MainPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="MenuItem1" Order="Primary" Icon="Microsoft.png" Text="Item 1" Priority="0" />
+    
+    </ContentPage.ToolbarItems>
 
 
     <StackLayout>
+        <Button Text="HOME" HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+                                    Clicked="Button_clicked_Home">
+
+        </Button>
         <ListView
             x:Name="ItemlistView"
 
@@ -32,10 +41,11 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Text="Carte view" HorizontalOptions="Center" VerticalOptions="Center"
+      <!--  <Button Text="Carte view" HorizontalOptions="Center" VerticalOptions="Center"
                                     Clicked="Button_clicked">
 
-        </Button>
+        </Button> -->
+       
         <Button Text="Refresh page" HorizontalOptions="Center" VerticalOptions="Center"
                                     Clicked="Button_clicked_refresh">
 

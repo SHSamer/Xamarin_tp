@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_tp.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Editor Text="Welcome to our app! This app is developed by EON Yoann and SHILI Samer as part of a university project"></Editor>
+            <Editor Text=" "></Editor>
+            <Editor Text=" "></Editor>
+            <Button Text="List view" HorizontalOptions="Center" VerticalOptions="Center"
+                                    Clicked="Button_clicked_Listview">
+
+            </Button>
+            <Button Text="Carte view" HorizontalOptions="Center" VerticalOptions="Center"
+                                    Clicked="Button_clicked_Mapview">
+
+            </Button>
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
