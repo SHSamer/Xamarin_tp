@@ -25,6 +25,7 @@ namespace Xamarin_tp
 
         }
 
+
         async override protected void OnAppearing()
         {
             string responsecontent = await _client.GetStringAsync(Url);
@@ -40,17 +41,17 @@ namespace Xamarin_tp
         private async void Button_clicked_refresh(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
-
-        }
-        private void Button_clicked_auto_refresh(object sender, EventArgs e)
-        {
-            Device.StartTimer(TimeSpan.FromSeconds(30), () =>
+          
             {
+                Device.StartTimer(TimeSpan.FromSeconds(30), () =>
+                {
+                    Button_clicked_refresh(sender, e);
+                    return true;
+                });
+            }
 
-                Button_clicked_refresh(sender, e);
-                return true;
-            });
         }
+        
 
 
     }
