@@ -14,7 +14,7 @@ namespace Xamarin_tp
     public partial class MainPage : ContentPage
     {
 
-        
+
         private readonly HttpClient _client = new HttpClient();
         private const string Url = "https://hmin309-embedded-systems.herokuapp.com/message-exchange/messages/";
         private ObservableCollection<Account> account;
@@ -22,18 +22,36 @@ namespace Xamarin_tp
         {
             Title = "List view of all the messages";
             InitializeComponent();
+
         }
+
         async override protected void OnAppearing()
         {
             string responsecontent = await _client.GetStringAsync(Url);
             List<Account> mylist = JsonConvert.DeserializeObject<List<Account>>(responsecontent);
             account = new ObservableCollection<Account>(mylist);
             ItemlistView.ItemsSource = account;
-            base.OnAppearing(); 
+            base.OnAppearing();
         }
         private async void Button_clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Cartepage());
         }
+        private async void Button_clicked_refresh(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+
+        }
+        private void Button_clicked_auto_refresh(object sender, EventArgs e)
+        {
+            Device.StartTimer(TimeSpan.FromSeconds(30), () =>
+            {
+
+                Button_clicked_refresh(sender, e);
+                return true;
+            });
+        }
+
+
     }
 }

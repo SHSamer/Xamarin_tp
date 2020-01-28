@@ -40,6 +40,10 @@ namespace Xamarin_tp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::Xamarin_tp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::Xamarin_tp.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::Xamarin_tp.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::Xamarin_tp.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::Xamarin_tp.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::Xamarin_tp.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::Xamarin_tp.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.tooltip_enter = global::Xamarin_tp.Droid.Resource.Animation.tooltip_enter;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.tooltip_exit = global::Xamarin_tp.Droid.Resource.Animation.tooltip_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::Xamarin_tp.Droid.Resource.Animator.design_appbar_state_list_animator;
@@ -818,6 +822,8 @@ namespace Xamarin_tp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::Xamarin_tp.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::Xamarin_tp.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::Xamarin_tp.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::Xamarin_tp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::Xamarin_tp.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::Xamarin_tp.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::Xamarin_tp.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::Xamarin_tp.Droid.Resource.Id.home;
@@ -948,6 +954,7 @@ namespace Xamarin_tp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Xamarin_tp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_view = global::Xamarin_tp.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::Xamarin_tp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::Xamarin_tp.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::Xamarin_tp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::Xamarin_tp.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_snackbar = global::Xamarin_tp.Droid.Resource.Layout.design_layout_snackbar;
@@ -962,6 +969,7 @@ namespace Xamarin_tp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::Xamarin_tp.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::Xamarin_tp.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_password_icon = global::Xamarin_tp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::Xamarin_tp.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action = global::Xamarin_tp.Droid.Resource.Layout.notification_action;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action_tombstone = global::Xamarin_tp.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_media_action = global::Xamarin_tp.Droid.Resource.Layout.notification_media_action;
@@ -977,9 +985,11 @@ namespace Xamarin_tp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::Xamarin_tp.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::Xamarin_tp.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::Xamarin_tp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::Xamarin_tp.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::Xamarin_tp.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::Xamarin_tp.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::Xamarin_tp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::Xamarin_tp.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Xamarin_tp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.tooltip = global::Xamarin_tp.Droid.Resource.Layout.tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::Xamarin_tp.Droid.Resource.String.abc_action_bar_home_description;
@@ -1194,6 +1204,7 @@ namespace Xamarin_tp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::Xamarin_tp.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::Xamarin_tp.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::Xamarin_tp.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.NestedScrollBarStyle = global::Xamarin_tp.Droid.Resource.Style.NestedScrollBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::Xamarin_tp.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::Xamarin_tp.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Xamarin_tp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
@@ -1409,6 +1420,7 @@ namespace Xamarin_tp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::Xamarin_tp.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::Xamarin_tp.Droid.Resource.Style.Widget_Design_TabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::Xamarin_tp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewStyle = global::Xamarin_tp.Droid.Resource.Style.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar = global::Xamarin_tp.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_background = global::Xamarin_tp.Droid.Resource.Styleable.ActionBar_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar_backgroundSplit = global::Xamarin_tp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
@@ -2008,6 +2020,18 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F01000E
 			public const int design_snackbar_out = 2130771982;
 			
+			// aapt resource value: 0x7F070018
+			public const int EnterFromLeft = 2131165208;
+			
+			// aapt resource value: 0x7F070019
+			public const int EnterFromRight = 2131165209;
+			
+			// aapt resource value: 0x7F070020
+			public const int ExitToLeft = 2131165216;
+			
+			// aapt resource value: 0x7F070021
+			public const int ExitToRight = 2131165217;
+			
 			// aapt resource value: 0x7F01000F
 			public const int tooltip_enter = 2130771983;
 			
@@ -2293,8 +2317,8 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F040047
 			public const int buttonPanelSideLayout = 2130968647;
 			
-			// aapt resource value: 0x7F090376
-			public const int buttonSize = 2131297142;
+			// aapt resource value: 0x7F100376
+			public const int buttonSize = 2131755894;
 			
 			// aapt resource value: 0x7F040048
 			public const int buttonStyle = 2130968648;
@@ -2455,8 +2479,8 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
 			
-			// aapt resource value: 0x7F090375
-			public const int circleCrop = 2131297141;
+			// aapt resource value: 0x7F100375
+			public const int circleCrop = 2131755893;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -2506,8 +2530,8 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F04005D
 			public const int colorPrimaryDark = 2130968669;
 			
-			// aapt resource value: 0x7F090377
-			public const int colorScheme = 2131297143;
+			// aapt resource value: 0x7F100377
+			public const int colorScheme = 2131755895;
 			
 			// aapt resource value: 0x7F04005E
 			public const int colorSwitchThumbNormal = 2130968670;
@@ -2782,11 +2806,11 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F0400A6
 			public const int iconTintMode = 2130968742;
 			
-			// aapt resource value: 0x7F090374
-			public const int imageAspectRatio = 2131297140;
+			// aapt resource value: 0x7F100374
+			public const int imageAspectRatio = 2131755892;
 			
-			// aapt resource value: 0x7F090373
-			public const int imageAspectRatioAdjust = 2131297139;
+			// aapt resource value: 0x7F100373
+			public const int imageAspectRatioAdjust = 2131755891;
 			
 			// aapt resource value: 0x7F0400A8
 			public const int imageButtonStyle = 2130968744;
@@ -3109,8 +3133,8 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x1
 			public const int schemaOrgType = 1;
 			
-			// aapt resource value: 0x7F090378
-			public const int scopeUris = 2131297144;
+			// aapt resource value: 0x7F100378
+			public const int scopeUris = 2131755896;
 			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
@@ -5036,62 +5060,62 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x1
 			public const int cast_skip_ad_label_border = 1;
 			
-			// aapt resource value: 0x7F070319
-			public const int common_full_open_on_phone = 2131165977;
+			// aapt resource value: 0x7F080319
+			public const int common_full_open_on_phone = 2131231513;
 			
-			// aapt resource value: 0x7F070305
-			public const int common_google_signin_btn_icon_dark = 2131165957;
+			// aapt resource value: 0x7F080305
+			public const int common_google_signin_btn_icon_dark = 2131231493;
 			
-			// aapt resource value: 0x7F070306
-			public const int common_google_signin_btn_icon_dark_focused = 2131165958;
+			// aapt resource value: 0x7F080306
+			public const int common_google_signin_btn_icon_dark_focused = 2131231494;
 			
-			// aapt resource value: 0x7F070307
-			public const int common_google_signin_btn_icon_dark_normal = 2131165959;
+			// aapt resource value: 0x7F080307
+			public const int common_google_signin_btn_icon_dark_normal = 2131231495;
 			
-			// aapt resource value: 0x7F070320
-			public const int common_google_signin_btn_icon_dark_normal_background = 2131165984;
+			// aapt resource value: 0x7F080320
+			public const int common_google_signin_btn_icon_dark_normal_background = 2131231520;
 			
-			// aapt resource value: 0x7F070308
-			public const int common_google_signin_btn_icon_disabled = 2131165960;
+			// aapt resource value: 0x7F080308
+			public const int common_google_signin_btn_icon_disabled = 2131231496;
 			
-			// aapt resource value: 0x7F070309
-			public const int common_google_signin_btn_icon_light = 2131165961;
+			// aapt resource value: 0x7F080309
+			public const int common_google_signin_btn_icon_light = 2131231497;
 			
-			// aapt resource value: 0x7F070310
-			public const int common_google_signin_btn_icon_light_focused = 2131165968;
+			// aapt resource value: 0x7F080310
+			public const int common_google_signin_btn_icon_light_focused = 2131231504;
 			
-			// aapt resource value: 0x7F070311
-			public const int common_google_signin_btn_icon_light_normal = 2131165969;
+			// aapt resource value: 0x7F080311
+			public const int common_google_signin_btn_icon_light_normal = 2131231505;
 			
-			// aapt resource value: 0x7F070321
-			public const int common_google_signin_btn_icon_light_normal_background = 2131165985;
+			// aapt resource value: 0x7F080321
+			public const int common_google_signin_btn_icon_light_normal_background = 2131231521;
 			
-			// aapt resource value: 0x7F070312
-			public const int common_google_signin_btn_text_dark = 2131165970;
+			// aapt resource value: 0x7F080312
+			public const int common_google_signin_btn_text_dark = 2131231506;
 			
-			// aapt resource value: 0x7F070313
-			public const int common_google_signin_btn_text_dark_focused = 2131165971;
+			// aapt resource value: 0x7F080313
+			public const int common_google_signin_btn_text_dark_focused = 2131231507;
 			
-			// aapt resource value: 0x7F070314
-			public const int common_google_signin_btn_text_dark_normal = 2131165972;
+			// aapt resource value: 0x7F080314
+			public const int common_google_signin_btn_text_dark_normal = 2131231508;
 			
-			// aapt resource value: 0x7F070322
-			public const int common_google_signin_btn_text_dark_normal_background = 2131165986;
+			// aapt resource value: 0x7F080322
+			public const int common_google_signin_btn_text_dark_normal_background = 2131231522;
 			
-			// aapt resource value: 0x7F070315
-			public const int common_google_signin_btn_text_disabled = 2131165973;
+			// aapt resource value: 0x7F080315
+			public const int common_google_signin_btn_text_disabled = 2131231509;
 			
-			// aapt resource value: 0x7F070316
-			public const int common_google_signin_btn_text_light = 2131165974;
+			// aapt resource value: 0x7F080316
+			public const int common_google_signin_btn_text_light = 2131231510;
 			
-			// aapt resource value: 0x7F070317
-			public const int common_google_signin_btn_text_light_focused = 2131165975;
+			// aapt resource value: 0x7F080317
+			public const int common_google_signin_btn_text_light_focused = 2131231511;
 			
-			// aapt resource value: 0x7F070318
-			public const int common_google_signin_btn_text_light_normal = 2131165976;
+			// aapt resource value: 0x7F080318
+			public const int common_google_signin_btn_text_light_normal = 2131231512;
 			
-			// aapt resource value: 0x7F070323
-			public const int common_google_signin_btn_text_light_normal_background = 2131165987;
+			// aapt resource value: 0x7F080323
+			public const int common_google_signin_btn_text_light_normal_background = 2131231523;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -5111,11 +5135,11 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F070324
-			public const int googleg_disabled_color_18 = 2131165988;
+			// aapt resource value: 0x7F080324
+			public const int googleg_disabled_color_18 = 2131231524;
 			
-			// aapt resource value: 0x7F070325
-			public const int googleg_standard_color_18 = 2131165989;
+			// aapt resource value: 0x7F080325
+			public const int googleg_standard_color_18 = 2131231525;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -5976,11 +6000,11 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F010176
-			public const int adjust_height = 2130772342;
+			// aapt resource value: 0x7F010188
+			public const int adjust_height = 2130772360;
 			
-			// aapt resource value: 0x7F010175
-			public const int adjust_width = 2130772341;
+			// aapt resource value: 0x7F010187
+			public const int adjust_width = 2130772359;
 			
 			// aapt resource value: 0x1
 			public const int ad_container = 1;
@@ -6009,11 +6033,11 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x1
 			public const int android_pay_light_with_border = 1;
 			
-			// aapt resource value: 0x7F010182
-			public const int APP_NAME = 2130772354;
+			// aapt resource value: 0x7F010194
+			public const int APP_NAME = 2130772372;
 			
-			// aapt resource value: 0x7F010174
-			public const int app_name = 2130772340;
+			// aapt resource value: 0x7F010186
+			public const int app_name = 2130772358;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -6041,6 +6065,12 @@ namespace Xamarin_tp.Droid
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
+			
+			// aapt resource value: 0x7F010174
+			public const int bottomtab.navarea = 2130772340;
+			
+			// aapt resource value: 0x7F010175
+			public const int bottomtab.tabbar = 2130772341;
 			
 			// aapt resource value: 0x1
 			public const int button = 1;
@@ -6129,6 +6159,9 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x1
 			public const int classic = 1;
 			
+			// aapt resource value: 0x7F010184
+			public const int collectionViewStyle = 2130772356;
+			
 			// aapt resource value: 0x1
 			public const int contact = 1;
 			
@@ -6159,8 +6192,8 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F010180
-			public const int dark = 2130772352;
+			// aapt resource value: 0x7F010192
+			public const int dark = 2130772370;
 			
 			// aapt resource value: 0x1
 			public const int date = 1;
@@ -6228,6 +6261,12 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
+			// aapt resource value: 0x7F010176
+			public const int flyoutcontent_appbar = 2130772342;
+			
+			// aapt resource value: 0x7F010177
+			public const int flyoutcontent_recycler = 2130772343;
+			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
@@ -6267,8 +6306,8 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F010179
-			public const int icon_only = 2130772345;
+			// aapt resource value: 0x7F010191
+			public const int icon_only = 2130772369;
 			
 			// aapt resource value: 0x1
 			public const int icon_uri = 1;
@@ -6330,8 +6369,8 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x1
 			public const int license_list = 1;
 			
-			// aapt resource value: 0x7F010181
-			public const int light = 2130772353;
+			// aapt resource value: 0x7F010193
+			public const int light = 2130772371;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -6356,6 +6395,18 @@ namespace Xamarin_tp.Droid
 			
 			// aapt resource value: 0x1
 			public const int logo_only = 1;
+			
+			// aapt resource value: 0x7F010178
+			public const int main.appbar = 2130772344;
+			
+			// aapt resource value: 0x7F010180
+			public const int main.tablayout = 2130772352;
+			
+			// aapt resource value: 0x7F010179
+			public const int main.toolbar = 2130772345;
+			
+			// aapt resource value: 0x7F010181
+			public const int main.viewpager = 2130772353;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -6458,6 +6509,9 @@ namespace Xamarin_tp.Droid
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
+			
+			// aapt resource value: 0x7F010185
+			public const int nestedScrollViewStyle = 2130772357;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -6621,6 +6675,12 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
+			// aapt resource value: 0x7F010182
+			public const int shellcontent.appbar = 2130772354;
+			
+			// aapt resource value: 0x7F010183
+			public const int shellcontent.toolbar = 2130772355;
+			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
 			
@@ -6654,8 +6714,8 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
-			// aapt resource value: 0x7F010177
-			public const int standard = 2130772343;
+			// aapt resource value: 0x7F010189
+			public const int standard = 2130772361;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
@@ -6789,8 +6849,8 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F0C007D
 			public const int volume_item_container = 2131492989;
 			
-			// aapt resource value: 0x7F010178
-			public const int wide = 2130772344;
+			// aapt resource value: 0x7F010190
+			public const int wide = 2130772368;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -6963,6 +7023,9 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
+			// aapt resource value: 0x7F020070
+			public const int BottomTabLayout = 2130837616;
+			
 			// aapt resource value: 0x1
 			public const int cast_expanded_controller_activity = 1;
 			
@@ -7022,6 +7085,9 @@ namespace Xamarin_tp.Droid
 			
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
+			
+			// aapt resource value: 0x7F020071
+			public const int FlyoutContent = 2130837617;
 			
 			// aapt resource value: 0x1
 			public const int libraries_social_licenses_license = 1;
@@ -7110,6 +7176,9 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x1
 			public const int place_autocomplete_progress = 1;
 			
+			// aapt resource value: 0x7F020072
+			public const int RootLayout = 2130837618;
+			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
 			
@@ -7118,6 +7187,9 @@ namespace Xamarin_tp.Droid
 			
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
+			
+			// aapt resource value: 0x7F020073
+			public const int ShellContent = 2130837619;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -7401,56 +7473,56 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F080062
-			public const int common_google_play_services_enable_button = 2131230818;
+			// aapt resource value: 0x7F090062
+			public const int common_google_play_services_enable_button = 2131296354;
 			
-			// aapt resource value: 0x7F080063
-			public const int common_google_play_services_enable_text = 2131230819;
+			// aapt resource value: 0x7F090063
+			public const int common_google_play_services_enable_text = 2131296355;
 			
-			// aapt resource value: 0x7F080064
-			public const int common_google_play_services_enable_title = 2131230820;
+			// aapt resource value: 0x7F090064
+			public const int common_google_play_services_enable_title = 2131296356;
 			
-			// aapt resource value: 0x7F080065
-			public const int common_google_play_services_install_button = 2131230821;
+			// aapt resource value: 0x7F090065
+			public const int common_google_play_services_install_button = 2131296357;
 			
-			// aapt resource value: 0x7F080066
-			public const int common_google_play_services_install_text = 2131230822;
+			// aapt resource value: 0x7F090066
+			public const int common_google_play_services_install_text = 2131296358;
 			
-			// aapt resource value: 0x7F080067
-			public const int common_google_play_services_install_title = 2131230823;
+			// aapt resource value: 0x7F090067
+			public const int common_google_play_services_install_title = 2131296359;
 			
-			// aapt resource value: 0x7F080068
-			public const int common_google_play_services_notification_ticker = 2131230824;
+			// aapt resource value: 0x7F090068
+			public const int common_google_play_services_notification_ticker = 2131296360;
 			
 			// aapt resource value: 0x1
 			public const int common_google_play_services_unknown_issue = 1;
 			
-			// aapt resource value: 0x7F080069
-			public const int common_google_play_services_unsupported_text = 2131230825;
+			// aapt resource value: 0x7F090069
+			public const int common_google_play_services_unsupported_text = 2131296361;
 			
-			// aapt resource value: 0x7F080070
-			public const int common_google_play_services_update_button = 2131230832;
+			// aapt resource value: 0x7F090070
+			public const int common_google_play_services_update_button = 2131296368;
 			
-			// aapt resource value: 0x7F080071
-			public const int common_google_play_services_update_text = 2131230833;
+			// aapt resource value: 0x7F090071
+			public const int common_google_play_services_update_text = 2131296369;
 			
-			// aapt resource value: 0x7F080072
-			public const int common_google_play_services_update_title = 2131230834;
+			// aapt resource value: 0x7F090072
+			public const int common_google_play_services_update_title = 2131296370;
 			
-			// aapt resource value: 0x7F080073
-			public const int common_google_play_services_updating_text = 2131230835;
+			// aapt resource value: 0x7F090073
+			public const int common_google_play_services_updating_text = 2131296371;
 			
-			// aapt resource value: 0x7F080074
-			public const int common_google_play_services_wear_update_text = 2131230836;
+			// aapt resource value: 0x7F090074
+			public const int common_google_play_services_wear_update_text = 2131296372;
 			
-			// aapt resource value: 0x7F080075
-			public const int common_open_on_phone = 2131230837;
+			// aapt resource value: 0x7F090075
+			public const int common_open_on_phone = 2131296373;
 			
-			// aapt resource value: 0x7F080076
-			public const int common_signin_button_text = 2131230838;
+			// aapt resource value: 0x7F090076
+			public const int common_signin_button_text = 2131296374;
 			
-			// aapt resource value: 0x7F080077
-			public const int common_signin_button_text_long = 2131230839;
+			// aapt resource value: 0x7F090077
+			public const int common_signin_button_text_long = 2131296375;
 			
 			// aapt resource value: 0x1
 			public const int fcm_fallback_notification_channel_label = 1;
@@ -8134,6 +8206,9 @@ namespace Xamarin_tp.Droid
 			// aapt resource value: 0x1
 			public const int CastMiniController = 1;
 			
+			// aapt resource value: 0x7F050404
+			public const int collectionViewStyle = 2131035140;
+			
 			// aapt resource value: 0x1
 			public const int CustomCastTheme = 1;
 			
@@ -8142,6 +8217,9 @@ namespace Xamarin_tp.Droid
 			
 			// aapt resource value: 0x7F050003
 			public const int MainTheme_Base = 2131034115;
+			
+			// aapt resource value: 0x7F050405
+			public const int NestedScrollBarStyle = 2131035141;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;

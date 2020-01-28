@@ -35,6 +35,11 @@
                                     Clicked="Button_clicked">
 
         </Button>
+        <Button Text="Refresh page" HorizontalOptions="Center" VerticalOptions="Center"
+                                    Clicked="Button_clicked_refresh">
+
+        </Button>
+
     </StackLayout>
 
 </ContentPage>
