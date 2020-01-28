@@ -14,17 +14,18 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Padding="10">
-
-                            <Label Text="{Binding id}"
-                                   LineBreakMode="NoWrap"  FontSize="Medium"   TextColor="Orange"/>
+                            <Label Text="Student id:"></Label>
+                          <!--  <Label Text="{Binding id}"
+                                   LineBreakMode="NoWrap"  FontSize="Medium"   TextColor="Orange"/> -->
                             <Label Text="{Binding student_id}"
                                    LineBreakMode="NoWrap"  FontSize="Medium"  TextColor="Orange"/>
-                            <Label Text="{Binding gps_lat}"
+                           <!-- <Label Text="{Binding gps_lat}"
                                    LineBreakMode="NoWrap"  FontSize="Medium" TextColor="Orange"/>
                             <Label Text="{Binding gps_long}"
-                                   LineBreakMode="NoWrap"  FontSize="Medium" TextColor="Orange"/>
-                            <Label Text="{Binding student_message}" 
-                                   LineBreakMode="NoWrap"  FontSize="Medium" TextColor="Orange"/>
+                                   LineBreakMode="NoWrap"  FontSize="Medium" TextColor="Orange"/>-->
+                            <Label Text="Student message:"></Label>
+                            <Editor  Text="{Binding student_message}" 
+                                     FontSize="Medium" TextColor="Orange" MaxLength="50"/>
 
                         </StackLayout>
                     </ViewCell>

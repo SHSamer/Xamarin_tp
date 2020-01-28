@@ -33,6 +33,11 @@ namespace Xamarin_tp
             account = new ObservableCollection<Account>(mylist);
             ItemlistView.ItemsSource = account;
             base.OnAppearing();
+            Device.StartTimer(TimeSpan.FromSeconds(30.01), () =>
+            {
+                Navigation.PushAsync(new MainPage());
+                return true;
+            });
         }
         private async void Button_clicked(object sender, EventArgs e)
         {
@@ -41,14 +46,7 @@ namespace Xamarin_tp
         private async void Button_clicked_refresh(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
-          
-            {
-                Device.StartTimer(TimeSpan.FromSeconds(30), () =>
-                {
-                    Button_clicked_refresh(sender, e);
-                    return true;
-                });
-            }
+         
 
         }
         
