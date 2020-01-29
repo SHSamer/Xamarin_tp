@@ -11,6 +11,64 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "sqlite-net-pcl/1.6.292": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "1.1.13"
+        },
+        "compile": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13",
+          "SQLitePCLRaw.lib.e_sqlite3.android": "1.1.13",
+          "SQLitePCLRaw.provider.e_sqlite3.android": "1.1.13"
+        },
+        "compile": {
+          "lib/MonoAndroid/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.android/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/SQLitePCLRaw.lib.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/SQLitePCLRaw.lib.e_sqlite3.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3.android/1.1.13": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "1.1.13"
+        },
+        "compile": {
+          "lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
         "type": "package",
         "dependencies": {
@@ -344,7 +402,7 @@
           "build/Xamarin.Build.Download.targets": {}
         }
       },
-      "Xamarin.Forms/4.4.0.991477": {
+      "Xamarin.Forms/4.4.0.991537": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.CustomTabs": "28.0.0.3",
@@ -372,11 +430,11 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.4.0.991477": {
+      "Xamarin.Forms.Maps/4.4.0.991537": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.v7.AppCompat": "28.0.0.3",
-          "Xamarin.Forms": "4.4.0.991477",
+          "Xamarin.Forms": "4.4.0.991537",
           "Xamarin.GooglePlayServices.Maps": "60.1142.1"
         },
         "compile": {
@@ -461,7 +519,8 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Xamarin.Forms": "4.4.0.991477",
-          "Xamarin.Forms.Maps": "4.4.0.991477"
+          "Xamarin.Forms.Maps": "4.4.0.991477",
+          "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
           "bin/placeholder/Xamarin_tp.dll": {}
@@ -502,6 +561,119 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "sqlite-net-pcl/1.6.292": {
+      "sha512": "TZPs206/ZZXhDAgCzxE5Dmw1enkRmtpd1RKt+dLJA6Kvml4RxwkasRs4js2kijtGxik1SLCs39rh9nl9YFwrYg==",
+      "type": "package",
+      "path": "sqlite-net-pcl/1.6.292",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/SQLite-net.deps.json",
+        "lib/netstandard1.1/SQLite-net.dll",
+        "lib/netstandard1.1/SQLite-net.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.xml",
+        "sqlite-net-pcl.1.6.292.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_green/1.1.13": {
+      "sha512": "E0Hm/XTfleE/LlrRZVucB1dQqDlIDPgqvkFymbGqMO7bSaoB6R2X5Cgzq/RDxBFSzHjpzet2Tp5Kar8faLSZ+Q==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/wp8/SQLitePCLRaw.bundle_green.targets",
+        "build/wp80/arm/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/arm/SQLitePCLRaw.batteries_v2.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_green.dll",
+        "build/wp80/x86/SQLitePCLRaw.batteries_v2.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_green.dll",
+        "lib/MonoAndroid/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net35/SQLitePCLRaw.batteries_green.dll",
+        "lib/net35/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net40/SQLitePCLRaw.batteries_green.dll",
+        "lib/net40/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net45/SQLitePCLRaw.batteries_green.dll",
+        "lib/net45/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll",
+        "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_green.dll",
+        "lib/uap10.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win8/SQLitePCLRaw.batteries_green.dll",
+        "lib/win8/SQLitePCLRaw.batteries_v2.dll",
+        "lib/win81/SQLitePCLRaw.batteries_green.dll",
+        "lib/win81/SQLitePCLRaw.batteries_v2.dll",
+        "lib/wp8/_._",
+        "lib/wpa81/SQLitePCLRaw.batteries_green.dll",
+        "lib/wpa81/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/1.1.13": {
+      "sha512": "I8Q9qL1urPegoyZ5uI32lgqsxl8aPRZAyVBJbO+0T/zlGz/LBc8vhRVyDyCOU9LWWpV8dYpT0nCpuLv1ua6zkA==",
+      "type": "package",
+      "path": "sqlitepclraw.core/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.Mac20/SQLitePCLRaw.core.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/net35/SQLitePCLRaw.core.dll",
+        "lib/net40/SQLitePCLRaw.core.dll",
+        "lib/net45/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.0/SQLitePCLRaw.core.dll",
+        "lib/netstandard1.1/SQLitePCLRaw.core.dll",
+        "lib/portable-net40+sl5+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLitePCLRaw.core.dll",
+        "lib/uap10.0/SQLitePCLRaw.core.dll",
+        "lib/win8/SQLitePCLRaw.core.dll",
+        "lib/win81/SQLitePCLRaw.core.dll",
+        "lib/wpa81/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.1.1.13.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.android/1.1.13": {
+      "sha512": "o3LDLwmrDsWmx4Ed0DgfxSzNQTaEHy7Od9VxBnIMqeunMMKC5ndKAQuaqiR9Bf/iwOH+Dnr/vV6O3Su0ecpFng==",
+      "type": "package",
+      "path": "sqlitepclraw.lib.e_sqlite3.android/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/SQLitePCLRaw.lib.e_sqlite3.dll",
+        "sqlitepclraw.lib.e_sqlite3.android.1.1.13.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.android.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.e_sqlite3.android/1.1.13": {
+      "sha512": "1lXSBJAVBZ/bE3+B6NVd5GC3xaX196TgjhybCUwjd5cVgKt59UNw3SHWHanuUnHCO8zfRIVCxY+Xu/Im/thnuw==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.e_sqlite3.android/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "sqlitepclraw.provider.e_sqlite3.android.1.1.13.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.android.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -972,10 +1144,10 @@
         "xamarin.build.download.nuspec"
       ]
     },
-    "Xamarin.Forms/4.4.0.991477": {
-      "sha512": "R0g6O208ugMZBfMbOh+gIJDX05CN6nMoGgkZVNIOU0hlOzKsM7oNJV7ntpSr4siRo43p61ycsY07w9JrgwonJQ==",
+    "Xamarin.Forms/4.4.0.991537": {
+      "sha512": "ZoOvfinSUma4gbXe/0mp6Uk/NTliFLkOwV9qLe/TW2VwSlBEhoiok99gr4esZVU+RwCPEqnsgmtlWFSMNzn2iw==",
       "type": "package",
-      "path": "xamarin.forms/4.4.0.991477",
+      "path": "xamarin.forms/4.4.0.991537",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1200,14 +1372,14 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.4.0.991477.nupkg.sha512",
+        "xamarin.forms.4.4.0.991537.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/4.4.0.991477": {
-      "sha512": "uPOq1ncGc0S6zNI87kiQZiREW1ej/h6UNEMJuQWDOAuKjdgAVW2dtFZO77bG1hGGOmZetjBLD6mBQ70TGpV9Lw==",
+    "Xamarin.Forms.Maps/4.4.0.991537": {
+      "sha512": "tyd1krw46bplZD4sOO2hwLYhsIBqY9dpWfgR7NWQe8csAegIyf3KZu2mwBVKH0m/zT5dzoe6r55L1ptmpWAx/Q==",
       "type": "package",
-      "path": "xamarin.forms.maps/4.4.0.991477",
+      "path": "xamarin.forms.maps/4.4.0.991537",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1233,7 +1405,7 @@
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.4.4.0.991477.nupkg.sha512",
+        "xamarin.forms.maps.4.4.0.991537.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -1304,9 +1476,10 @@
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.3",
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.3",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.3",
-      "Xamarin.Forms >= 4.4.0.991477",
-      "Xamarin.Forms.Maps >= 4.4.0.991477",
-      "Xamarin_tp >= 1.0.0"
+      "Xamarin.Forms >= 4.4.0.991537",
+      "Xamarin.Forms.Maps >= 4.4.0.991537",
+      "Xamarin_tp >= 1.0.0",
+      "sqlite-net-pcl >= 1.6.292"
     ]
   },
   "packageFolders": {
@@ -1372,11 +1545,15 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.4.0.991477, )"
+            "version": "[4.4.0.991537, )"
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
-            "version": "[4.4.0.991477, )"
+            "version": "[4.4.0.991537, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.6.292, )"
           }
         }
       }

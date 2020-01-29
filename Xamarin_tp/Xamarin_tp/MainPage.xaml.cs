@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -22,7 +23,7 @@ namespace Xamarin_tp
         {
             Title = "List view of all the messages";
             InitializeComponent();
-            
+           
 
         }
 
@@ -35,7 +36,7 @@ namespace Xamarin_tp
             ItemlistView.ItemsSource = account;
             base.OnAppearing();
             if (Application.Current.MainPage.Navigation.NavigationStack.Count > 0) { 
-                Device.StartTimer(TimeSpan.FromSeconds(59.01), () =>
+                Device.StartTimer(TimeSpan.FromSeconds(39.01), () =>
             {
                 Navigation.PushAsync(new MainPage());
                 return true;
@@ -58,6 +59,7 @@ namespace Xamarin_tp
 
 
         }
+        
 
 
 
