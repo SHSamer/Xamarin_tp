@@ -4,10 +4,7 @@
              xmlns:local="clr-namespace:Xamarin_tp"
              x:Class="Xamarin_tp.MainPage"
              NavigationPage.HasNavigationBar="False">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Name="MenuItem1" Order="Primary" Icon="Microsoft.png" Text="Item 1" Priority="0" />
-    
-    </ContentPage.ToolbarItems>
+
 
 
     <StackLayout>

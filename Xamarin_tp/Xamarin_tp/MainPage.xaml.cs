@@ -15,7 +15,7 @@ namespace Xamarin_tp
     public partial class MainPage : ContentPage
     {
 
-
+        Page currPage;
         private readonly HttpClient _client = new HttpClient();
         private const string Url = "https://hmin309-embedded-systems.herokuapp.com/message-exchange/messages/";
         private ObservableCollection<Account> account;
@@ -25,23 +25,35 @@ namespace Xamarin_tp
             InitializeComponent();
            
 
+
+
         }
 
 
         async override protected void OnAppearing()
         {
+            
             string responsecontent = await _client.GetStringAsync(Url);
             List<Account> mylist = JsonConvert.DeserializeObject<List<Account>>(responsecontent);
             account = new ObservableCollection<Account>(mylist);
             ItemlistView.ItemsSource = account;
             base.OnAppearing();
-            if (Application.Current.MainPage.Navigation.NavigationStack.Count > 0) { 
-                Device.StartTimer(TimeSpan.FromSeconds(39.01), () =>
+            if (Application.Current.MainPage.Navigation.NavigationStack.Count > 0)
             {
-                Navigation.PushAsync(new MainPage());
-                return true;
-            });
+                Device.StartTimer(TimeSpan.FromSeconds(30.99), () =>
+                {
+                    ItemlistView.BeginRefresh();
+
+
+                    OnAppearing();
+
+                    ItemlistView.EndRefresh(); 
+                   
+                    return true;
+                });
             }
+
+
         }
         private async void Button_clicked(object sender, EventArgs e)
         {
@@ -49,8 +61,12 @@ namespace Xamarin_tp
         }
         private async void Button_clicked_refresh(object sender, EventArgs e)
         {
+            ItemlistView.BeginRefresh();
+
             await Navigation.PushAsync(new MainPage());
-         
+
+            ItemlistView.EndRefresh();
+
 
         }
         private async void Button_clicked_Home(object sender, EventArgs e)
@@ -59,6 +75,7 @@ namespace Xamarin_tp
 
 
         }
+        
         
 
 
