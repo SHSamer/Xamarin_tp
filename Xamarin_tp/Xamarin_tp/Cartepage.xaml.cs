@@ -29,16 +29,26 @@ namespace Xamarin_tp
             Title = "Map view of all the messages";
             Task.Delay(2000);
             UpdateMap();
-            Device.StartTimer(TimeSpan.FromSeconds(30.99), () =>
+            if (Application.Current.MainPage.Navigation.NavigationStack.Count > 0)
             {
-               
+                Device.StartTimer(TimeSpan.FromSeconds(30.99), () =>
+            {
+
                 Navigation.PushAsync(new Cartepage(), false);
                 return true;
             });
+            }
 
 
         }
         List<Place> placesList = new List<Place>();
+        private async void Button_clicked_Home(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page1());
+
+
+        }
+
 
         private async void UpdateMap()
         {

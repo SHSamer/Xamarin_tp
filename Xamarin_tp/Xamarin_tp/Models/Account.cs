@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Xamarin_tp.Models
 {
-    [Table("Students")]
+    [Table("Student")]
     public class Message
     {
 

@@ -3,12 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Xamarin_tp"
              x:Class="Xamarin_tp.MainPage"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#f2eaf2">
 
 
 
     <StackLayout>
-        <Button Text="HOME" HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+        <Button Text="HOME" BackgroundColor="Black" TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="Center"
                                     Clicked="Button_clicked_Home">
 
         </Button>
@@ -20,7 +21,7 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Padding="10">
-                            <Label Text="Student id:"></Label>
+                            <Label Text="Student id:" FontSize="Large"></Label>
                           <!--  <Label Text="{Binding id}"
                                    LineBreakMode="NoWrap"  FontSize="Medium"   TextColor="Orange"/> -->
                             <Label Text="{Binding student_id}"
@@ -29,7 +30,7 @@
                                    LineBreakMode="NoWrap"  FontSize="Medium" TextColor="Orange"/>
                             <Label Text="{Binding gps_long}"
                                    LineBreakMode="NoWrap"  FontSize="Medium" TextColor="Orange"/>-->
-                            <Label Text="Student message:"></Label>
+                            <Label Text="Student message:" FontSize="Large"></Label>
                             <Editor  Text="{Binding student_message}" 
                                      FontSize="Medium" TextColor="Orange" MaxLength="50"/>
 
@@ -42,8 +43,8 @@
                                     Clicked="Button_clicked">
 
         </Button> -->
-       
-        <Button Text="Refresh page" HorizontalOptions="Center" VerticalOptions="Center"
+
+        <Button Text="Refresh page" Padding="10,20,10,20" BackgroundColor="#3079a8" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"
                                     Clicked="Button_clicked_refresh">
 
         </Button>

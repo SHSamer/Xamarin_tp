@@ -1,21 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Xamarin_tp.Page1">
-    <ContentPage.Content>
+             x:Class="Xamarin_tp.Page1"
+             BackgroundColor="#f2eaf2"
+             >
+    <ContentPage.Content Padding="10,20,10,20">
+        <RelativeLayout Padding="10,20,10,20">
+            
+       
         <StackLayout>
-         
-            <Button Text="List view" HorizontalOptions="Center" VerticalOptions="Center"
+                <Label Text=""></Label>
+                <Label Text=""></Label>
+                <Label Text=""></Label>
+                <Button Padding="10,20,10,20" BackgroundColor="#3079a8" TextColor="White" Text="List view" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"
                                     Clicked="Button_clicked_Listview">
-
-            </Button>
-            <Button Text="Carte view" HorizontalOptions="Center" VerticalOptions="Center"
+                </Button>
+                <Label Text=""></Label>
+                <Button Padding="10,20,10,20" BackgroundColor="#3079a8" TextColor="White" Text="Carte view" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"
                                     Clicked="Button_clicked_Mapview">
 
-            </Button>
-            
+                 </Button>
+                <Image Source="Xamarin.png" HorizontalOptions="Center" VerticalOptions="Center" />
 
-        </StackLayout>
-        
+
+            </StackLayout>
+            <StackLayout>
+               
+            </StackLayout>
+        </RelativeLayout>
+
     </ContentPage.Content>
 </ContentPage>

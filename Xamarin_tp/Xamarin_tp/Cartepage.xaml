@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:map="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-             x:Class="Xamarin_tp.Cartepage">
-   
-        
+             x:Class="Xamarin_tp.Cartepage"
+             NavigationPage.HasNavigationBar="False">
 
-    <Grid>
+    
+        
+        <Grid>
         <map:Map x:Name="MyMap" MapType="Street" HasZoomEnabled="True">
             <map:Map.ItemTemplate>
                 <DataTemplate>
@@ -16,8 +17,14 @@
                 </DataTemplate>
             </map:Map.ItemTemplate>
         </map:Map>
-        
-    </Grid>
+            <Button Text="HOME" BackgroundColor="Black" TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand"
+                                    Clicked="Button_clicked_Home">
+
+            </Button>
+
+        </Grid>
+            
     
+
 
 </ContentPage>

@@ -24,4 +24,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Menuitems\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
 </Project>
