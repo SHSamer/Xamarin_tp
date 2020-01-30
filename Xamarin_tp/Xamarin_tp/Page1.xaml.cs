@@ -52,6 +52,7 @@ namespace Xamarin_tp
                 Environment.GetFolderPath(Environment.SpecialFolder.Personal),
                 "ormdemo.db3");
             var db = new SQLiteConnection(dbPath);
+            db.DeleteAll<Message>();
             db.CreateTable<Message>();
             //Repmlir la base de donnee 
             foreach (Message mes in message)
