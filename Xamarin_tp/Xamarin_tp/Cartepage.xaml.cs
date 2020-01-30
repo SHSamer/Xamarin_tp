@@ -29,7 +29,14 @@ namespace Xamarin_tp
             Title = "Map view of all the messages";
             Task.Delay(2000);
             UpdateMap();
-            
+            Device.StartTimer(TimeSpan.FromSeconds(30.99), () =>
+            {
+               
+                Navigation.PushAsync(new Cartepage(), false);
+                return true;
+            });
+
+
         }
         List<Place> placesList = new List<Place>();
 
@@ -47,7 +54,7 @@ namespace Xamarin_tp
                 var table = db.Table<Message>();
                 foreach (var s in table)
                 {
-                    Console.WriteLine(s.id + " Oui oui ça marche! " + s.student_message);
+               
 
                 
                         placesList.Add(new Place
@@ -62,8 +69,6 @@ namespace Xamarin_tp
                 }
 
                 MyMap.ItemsSource = placesList;
-                //PlacesListView.ItemsSource = placesList;
-                //var loc = await Xamarin.Essentials.Geolocation.GetLocationAsync();
                 MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(43.632291, 3.862669818), Distance.FromKilometers(100)));
 
             }
@@ -74,6 +79,5 @@ namespace Xamarin_tp
 
 
         }
-       
     }
 }

@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:map="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="Xamarin_tp.Cartepage">
+   
+        
 
     <Grid>
         <map:Map x:Name="MyMap" MapType="Street" HasZoomEnabled="True">
@@ -14,6 +16,8 @@
                 </DataTemplate>
             </map:Map.ItemTemplate>
         </map:Map>
+        
     </Grid>
+    
 
 </ContentPage>

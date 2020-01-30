@@ -54,14 +54,16 @@ namespace Xamarin_tp
             var db = new SQLiteConnection(dbPath);
             db.CreateTable<Message>();
             //Repmlir la base de donnee 
-            foreach (Message mes  in message)
+            foreach (Message mes in message)
             {
-                Console.WriteLine("On est la quoi!! ");
-
-                db.Insert(mes); 
-
-
+                db.Insert(mes);
             }
+            Device.StartTimer(TimeSpan.FromSeconds(30.99), () =>
+            {
+                Replir_database(); 
+
+                return true;
+            });
             Console.WriteLine("Reading data");
             var table = db.Table<Message>();
             foreach (var s in table)
