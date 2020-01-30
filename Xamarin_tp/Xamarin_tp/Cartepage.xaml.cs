@@ -14,6 +14,7 @@ using Xamarin.Forms.Xaml;
 using Xamarin_tp.Models;
 using System.IO;
 using System.Diagnostics;
+using SQLite;
 
 namespace Xamarin_tp
 {
@@ -27,7 +28,8 @@ namespace Xamarin_tp
 
             Title = "Map view of all the messages";
             Task.Delay(2000);
-            UpdateMap(); 
+            UpdateMap();
+            
         }
         List<Place> placesList = new List<Place>();
 
@@ -35,28 +37,28 @@ namespace Xamarin_tp
         {
             try
             {
-                var assembly = IntrospectionExtensions.GetTypeInfo(typeof(Cartepage)).Assembly;
-                Stream stream = assembly.GetManifestResourceStream("Xamarin_tp.Places.json");
-                string text = string.Empty;
-                using (var reader = new StreamReader(stream))
-                {
-                    text = reader.ReadToEnd();
-                }
+               
 
-                var resultObject = JsonConvert.DeserializeObject<Places>(text);
-
-                foreach (var place in resultObject.results)
+         
+                string dbPath = Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.Personal),
+                "ormdemo.db3");
+                var db = new SQLiteConnection(dbPath);
+                var table = db.Table<Message>();
+                foreach (var s in table)
                 {
-                    placesList.Add(new Place
-                    {
-                        PlaceName = place.name,
-                        Address = place.vicinity,
-                        Location = place.geometry.location,
-                        Position = new Position(place.geometry.location.lat, place.geometry.location.lng),
-                        //Icon = place.icon,
-                        //Distance = $"{GetDistance(lat1, lon1, place.geometry.location.lat, place.geometry.location.lng, DistanceUnit.Kiliometers).ToString("N2")}km",
-                        //OpenNow = GetOpenHours(place?.opening_hours?.open_now)
-                    });
+                    Console.WriteLine(s.id + " Oui oui ça marche! " + s.student_message);
+
+                
+                        placesList.Add(new Place
+                        {
+                            PlaceName =s.student_id.ToString(),
+                            Address = s.student_message,
+                      
+                            Position = new Position(s.gps_lat, s.gps_long),
+                  
+                        });
+                    
                 }
 
                 MyMap.ItemsSource = placesList;
@@ -72,5 +74,6 @@ namespace Xamarin_tp
 
 
         }
+       
     }
 }

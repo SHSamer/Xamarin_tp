@@ -4,9 +4,7 @@
              x:Class="Xamarin_tp.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Editor Text="Welcome to our app! This app is developed by EON Yoann and SHILI Samer as part of a university project"></Editor>
-            <Editor Text=" "></Editor>
-            <Editor Text=" "></Editor>
+         
             <Button Text="List view" HorizontalOptions="Center" VerticalOptions="Center"
                                     Clicked="Button_clicked_Listview">
 

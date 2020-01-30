@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin_tp.Models;
+using SQLite;
+using System.IO;
 
 namespace Xamarin_tp
 {
@@ -16,13 +18,15 @@ namespace Xamarin_tp
     {
 
         Page currPage;
+        
         private readonly HttpClient _client = new HttpClient();
         private const string Url = "https://hmin309-embedded-systems.herokuapp.com/message-exchange/messages/";
-        private ObservableCollection<Account> account;
+        private ObservableCollection<Message> message;
         public MainPage()
         {
             Title = "List view of all the messages";
             InitializeComponent();
+ 
            
 
 
@@ -34,9 +38,9 @@ namespace Xamarin_tp
         {
             
             string responsecontent = await _client.GetStringAsync(Url);
-            List<Account> mylist = JsonConvert.DeserializeObject<List<Account>>(responsecontent);
-            account = new ObservableCollection<Account>(mylist);
-            ItemlistView.ItemsSource = account;
+            List<Message> mylist = JsonConvert.DeserializeObject<List<Message>>(responsecontent);
+            message = new ObservableCollection<Message>(mylist);
+            ItemlistView.ItemsSource = message;
             base.OnAppearing();
             if (Application.Current.MainPage.Navigation.NavigationStack.Count > 0)
             {
@@ -52,6 +56,7 @@ namespace Xamarin_tp
                     return true;
                 });
             }
+           
 
 
         }
@@ -76,7 +81,9 @@ namespace Xamarin_tp
 
         }
         
-        
+       
+
+
 
 
 
